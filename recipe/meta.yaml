@@ -27,29 +27,37 @@ requirements:
   host:
     - r-base
     - r-clipr
-    - r-curl >=5.0
+    - r-curl >=5.1.0
     - r-dplyr
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.9.0
+    - r-nodbi >=0.9.3
+    - r-readr
     - r-rvest
     - r-stringi
+    - r-tibble
+    - r-v8
     - r-xml2
+    - r-zip
   run:
     - r-base
     - r-clipr
-    - r-curl >=5.0
+    - r-curl >=5.1.0
     - r-dplyr
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.9.0
+    - r-nodbi >=0.9.3
+    - r-readr
     - r-rvest
     - r-stringi
+    - r-tibble
+    - r-v8
     - r-xml2
+    - r-zip
 
 test:
   commands:
