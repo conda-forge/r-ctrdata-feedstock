@@ -1,4 +1,4 @@
-{% set version = "1.15.2" %}
+{% set version = "1.16.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ctrdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ctrdata/ctrdata_{{ version }}.tar.gz
-  sha256: b47e09df2f6862302244ab07f6c485b68eccf3816d28b801161c708279fa1a67
+  sha256: 55437f9cede1246392317ee4f51b120ee13597f5a56d0236c57c766aff61c58e
 
 build:
   merge_build_host: true  # [win]
@@ -27,29 +27,37 @@ requirements:
   host:
     - r-base
     - r-clipr
-    - r-curl >=5.0
+    - r-curl >=5.1.0
     - r-dplyr
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.9.0
+    - r-nodbi >=0.9.3
+    - r-readr
     - r-rvest
     - r-stringi
+    - r-tibble
+    - r-v8
     - r-xml2
+    - r-zip
   run:
     - r-base
     - r-clipr
-    - r-curl >=5.0
+    - r-curl >=5.1.0
     - r-dplyr
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.9.0
+    - r-nodbi >=0.9.3
+    - r-readr
     - r-rvest
     - r-stringi
+    - r-tibble
+    - r-v8
     - r-xml2
+    - r-zip
 
 test:
   commands:
