@@ -26,36 +26,36 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-v8
     - r-clipr
     - r-curl >=5.1.0
+    - r-digest
     - r-dplyr
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.9.3
+    - r-nodbi >=0.10.0
     - r-readr
-    - r-rvest
     - r-stringi
     - r-tibble
-    - r-v8
     - r-xml2
     - r-zip
   run:
     - r-base
+    - r-v8
     - r-clipr
     - r-curl >=5.1.0
+    - r-digest
     - r-dplyr
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.9.3
+    - r-nodbi >=0.10.0
     - r-readr
-    - r-rvest
     - r-stringi
     - r-tibble
-    - r-v8
     - r-xml2
     - r-zip
 
