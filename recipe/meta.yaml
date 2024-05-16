@@ -1,4 +1,4 @@
-{% set version = "1.17.2" %}
+{% set version = "1.18.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ctrdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ctrdata/ctrdata_{{ version }}.tar.gz
-  sha256: c8a1e62557d5d90443d96c56bab87166ec1e451339c1047f81e93d04981f5177
+  sha256: 0b6474364c1cb421005e4c8a44a24af66595dd42064fb5daf44a5bce8863c407
 
 build:
   merge_build_host: true  # [win]
