@@ -3,7 +3,7 @@ About r-ctrdata-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ctrdata-feedstock/blob/main/LICENSE.txt)
 
-Home: https://cran.r-project.org/package=ctrdata
+Home: https://cran.r-project.org/package=ctrdata, https://rfhb.github.io/ctrdata/
 
 Package license: MIT
 
