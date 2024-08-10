@@ -26,6 +26,7 @@ requirements:
     - r-base
     - r-v8
     - r-clipr
+    - r-countrycode
     - r-curl >=5.1.0
     - r-digest
     - r-dplyr
@@ -43,6 +44,7 @@ requirements:
     - r-base
     - r-v8
     - r-clipr
+    - r-countrycode
     - r-curl >=5.1.0
     - r-digest
     - r-dplyr
@@ -63,7 +65,7 @@ test:
     - "\"%R%\" -e \"library('ctrdata')\""  # [win]
 
 about:
-  home: https://cran.r-project.org/package=ctrdata
+  home: https://cran.r-project.org/package=ctrdata, https://rfhb.github.io/ctrdata/
   license: MIT
   summary: A system for querying, retrieving and analyzing protocol- and results-related information on clinical trials from three public registers, the 'European Union Clinical Trials Register' ('EUCTR', <https://www.clinicaltrialsregister.eu/>), 'ClinicalTrials.gov' ('CTGOV', <https://clinicaltrials.gov/>), the 'ISRCTN'
     (<http://www.isrctn.com/>) and the 'European Union Clinical Trials Information System' ('CTIS', <https://euclinicaltrials.eu/>). Trial information is downloaded, converted and stored in a database ('PostgreSQL', 'SQLite', 'DuckDB' or 'MongoDB'; via package 'nodbi'). Functions are included to identify deduplicated records,
