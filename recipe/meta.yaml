@@ -30,14 +30,14 @@ requirements:
     - r-curl >=5.1.0
     - r-digest
     - r-dplyr
+    - r-htmlwidgets
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.10.0
+    - r-nodbi >=0.10.7
     - r-readr
     - r-stringi
-    - r-tibble
     - r-xml2
     - r-zip
   run:
@@ -48,14 +48,14 @@ requirements:
     - r-curl >=5.1.0
     - r-digest
     - r-dplyr
+    - r-htmlwidgets
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.10.0
+    - r-nodbi >=0.10.7
     - r-readr
     - r-stringi
-    - r-tibble
     - r-xml2
     - r-zip
 
