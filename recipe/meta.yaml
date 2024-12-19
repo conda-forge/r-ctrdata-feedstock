@@ -1,4 +1,4 @@
-{% set version = "1.19.5" %}
+{% set version = "1.20.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ctrdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ctrdata/ctrdata_{{ version }}.tar.gz
-  sha256: af1447839f11786a69d2fc3777f22a1494e3971409780b8d6646991da8755a5e
+  sha256: 2de450107ffac412c89aa0e4c9b314b9a1fa89f3126fa9c55b9f4c37589197b5
 
 build:
   number: 0
@@ -30,14 +30,14 @@ requirements:
     - r-curl >=5.1.0
     - r-digest
     - r-dplyr
+    - r-htmlwidgets
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.10.0
+    - r-nodbi >=0.10.7
     - r-readr
     - r-stringi
-    - r-tibble
     - r-xml2
     - r-zip
   run:
@@ -48,14 +48,14 @@ requirements:
     - r-curl >=5.1.0
     - r-digest
     - r-dplyr
+    - r-htmlwidgets
     - r-httr
     - r-jqr
     - r-jsonlite
     - r-lubridate
-    - r-nodbi >=0.10.0
+    - r-nodbi >=0.10.7
     - r-readr
     - r-stringi
-    - r-tibble
     - r-xml2
     - r-zip
 
