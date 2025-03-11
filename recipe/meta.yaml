@@ -37,7 +37,11 @@ requirements:
     - r-lubridate
     - r-nodbi >=0.10.7
     - r-readr
+    - r-rlang
+    - r-stringdist
     - r-stringi
+    - r-tibble
+    - r-tidyr
     - r-xml2
     - r-zip
   run:
@@ -55,7 +59,11 @@ requirements:
     - r-lubridate
     - r-nodbi >=0.10.7
     - r-readr
+    - r-rlang
+    - r-stringdist
     - r-stringi
+    - r-tibble
+    - r-tidyr
     - r-xml2
     - r-zip
 
