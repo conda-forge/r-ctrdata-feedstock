@@ -1,4 +1,4 @@
-{% set version = "1.22.0" %}
+{% set version = "1.22.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ctrdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ctrdata/ctrdata_{{ version }}.tar.gz
-  sha256: 82d11c3b147922359077ce623eb680bf389074cd8cb542e8628f6de1fa4bcb1b
+  sha256: fa337fdd44735eaa6a1b760d490d16a3adc1c07e8c082afc0c25affc84970e81
 
 build:
   number: 0
