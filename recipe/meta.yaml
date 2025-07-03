@@ -25,44 +25,36 @@ requirements:
   host:
     - r-base
     - r-v8
-    - r-clipr
-    - r-countrycode
-    - r-curl >=5.1.0
-    - r-digest
     - r-dplyr
     - r-htmlwidgets
-    - r-httr
+    - r-httr2
     - r-jqr
     - r-jsonlite
     - r-lubridate
     - r-nodbi >=0.10.7
     - r-readr
     - r-rlang
+    - r-rvest
     - r-stringdist
     - r-stringi
-    - r-tibble
     - r-tidyr
     - r-xml2
     - r-zip
   run:
     - r-base
     - r-v8
-    - r-clipr
-    - r-countrycode
-    - r-curl >=5.1.0
-    - r-digest
     - r-dplyr
     - r-htmlwidgets
-    - r-httr
+    - r-httr2
     - r-jqr
     - r-jsonlite
     - r-lubridate
     - r-nodbi >=0.10.7
     - r-readr
     - r-rlang
+    - r-rvest
     - r-stringdist
     - r-stringi
-    - r-tibble
     - r-tidyr
     - r-xml2
     - r-zip
