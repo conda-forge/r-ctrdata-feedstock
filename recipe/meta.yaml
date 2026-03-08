@@ -1,4 +1,4 @@
-{% set version = "1.26.0" %}
+{% set version = "1.26.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ctrdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ctrdata/ctrdata_{{ version }}.tar.gz
-  sha256: cec0723043996f4438ada9db272027c4dd7221c2bbca8db2eecaf7a07f7db4a3
+  sha256: c6793b823ffd56203421242211528606db9069959aa482729b73bc441266d251
 
 build:
   number: 0
@@ -67,9 +67,9 @@ test:
 about:
   home: https://cran.r-project.org/package=ctrdata, https://rfhb.github.io/ctrdata/
   license: MIT
-  summary: A system for querying, retrieving and analyzing protocol- and results-related information on clinical trials from three public registers, the 'European Union Clinical Trials Register' ('EUCTR', <https://www.clinicaltrialsregister.eu/>), 'ClinicalTrials.gov' ('CTGOV', <https://clinicaltrials.gov/>), the 'ISRCTN'
-    (<http://www.isrctn.com/>) and the 'European Union Clinical Trials Information System' ('CTIS', <https://euclinicaltrials.eu/>). Trial information is downloaded, converted and stored in a database ('PostgreSQL', 'SQLite', 'DuckDB' or 'MongoDB'; via package 'nodbi'). Functions are included to identify deduplicated records,
-    to easily find and extract variables (fields) of interest even from complex nesting as used by the registers, and to update previous queries. The package can be used for meta-analysis and trend-analysis of the design and conduct as well as for results of clinical trials.
+  summary: A system for querying, retrieving and analyzing protocol- and results-related information on clinical trials from three public registers, the 'European Union Clinical Trials Register' ('EUCTR', <https://www.clinicaltrialsregister.eu/>), 'ClinicalTrials.gov' ('CTGOV', <https://clinicaltrials.gov/>), the 
+    'ISRCTN' (<http://www.isrctn.com/>) and the 'European Union Clinical Trials Information System' ('CTIS', <https://euclinicaltrials.eu/>). Trial information is downloaded, converted and stored in a database ('PostgreSQL', 'SQLite', 'DuckDB' or 'MongoDB'; via package 'nodbi'). Functions are included to identify 
+    deduplicated records, to easily find and extract variables (fields) of interest even from complex nesting as used by the registers, and to update previous queries. The package can be used for meta-analysis and trend-analysis of the design and conduct as well as for results of clinical trials.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
